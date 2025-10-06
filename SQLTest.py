@@ -3,7 +3,7 @@ try:
     conn = mysql.connector.connect(
         host="127.0.0.1",
         user="root",
-        password="password",
+        password="your_password_here",
         port=3333,
         database="online_store"
     )
