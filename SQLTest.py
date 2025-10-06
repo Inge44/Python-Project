@@ -1,3 +1,5 @@
+# This Python script connects to a MySQL database using mysql.connector.
+# It demonstrates how to establish and close a database connection safely.
 import mysql.connector
 try:
     conn = mysql.connector.connect(
