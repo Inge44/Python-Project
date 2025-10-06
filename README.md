@@ -1,35 +1,46 @@
 # Python-Project
-## 📘 Overview
-This project demonstrates how to connect Python to a MySQL database and perform basic database operations such as inserting, updating, deleting, and retrieving data.  
-It is a small learning project designed to showcase my understanding of Python’s database connectivity features and my ability to work with SQL through Python code.
+# 🐍 Python MySQL Database Connection
 
-The project follows good practices such as separating configuration details, using environment variables for security, and structuring code clearly for maintainability.
-
----
-
-## 🎯 Project Objectives
-- Demonstrate how to establish a secure connection between Python and MySQL.
-- Perform essential CRUD (Create, Read, Update, Delete) operations using SQL queries within Python.
-- Illustrate basic database interaction and error handling.
-- Practice clean and organized Python coding structure.
+This project demonstrates how to connect a **Python program** to a **MySQL database** using the `mysql.connector` library.  
+It shows how to establish a secure connection, handle errors, and close the connection properly.  
+This simple script was created to showcase Python database integration skills.
 
 ---
 
-## ⚙️ Technologies Used
-- **Programming Language:** Python  
-- **Database:** MySQL  
-- **Libraries:**
-  - `mysql-connector-python` – for connecting and executing SQL queries.
-  - `python-dotenv` – for managing environment variables securely.
+## 📖 Overview
+
+The goal of this project is to demonstrate how a Python application can interact with a MySQL database.  
+Using the `mysql.connector` package, the script connects to a local MySQL server and verifies if the connection is successful.
+
 ---
 
-## 🧱 Project Structure
-Python-MySQL-Project/
-│
-├── main.py # Main script to run the project
-├── db_config.py # Loads database configuration from .env
-├── .env # Environment file for database credentials (not uploaded)
-├── requirements.txt # List of dependencies
-├── README.md # Project documentation
-└── .gitignore # Ignored files (e.g., .env, pycache)
+## ⚙️ Features
 
+- Connects to a MySQL database using Python  
+- Verifies if the connection is successful  
+- Handles database errors safely with `try` and `except`  
+- Closes the connection properly using `finally`  
+
+---
+
+## 🧰 Requirements
+
+Before running the project, make sure you have the following installed:
+
+- **Python 3.8+**  
+- **MySQL Server** (running locally or remotely)  
+- **mysql-connector-python** library  
+
+Install the connector with:
+```bash
+pip install mysql-connector-python
+
+🧠 Learning Goal
+
+This project was created as a learning exercise to practice using Python to:
+
+Connect to a database
+
+Handle connection errors
+
+Use try / except / finally blocks correctly
